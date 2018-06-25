@@ -6,6 +6,15 @@ En JavaScript, un objecto es un entidad independiente con propiedades y tipos.  
  
 
 //EJERCICIO 1
+//declarando 
+var myObj = {}; // objeto vacio
+var myStr = 'myProperty'; // variable myProperty
+var myArray = [1, 3]; // valores que debe devolver 
+
+ // llamando 
+addArrayProperty(myObj, "myProperty", myArray); // me pide
+
+console.log(myObj.myProperty);// para que se vea en la consola
 
 var myObj = {};
 var myStr = 'myProperty';
